@@ -18,6 +18,7 @@ import pytest
 # this comment is for git
 
 # first comment
+# second comment
 @pytest.mark.smoke
 #@pytest.mark.skip
 def test_firstProgram():
