@@ -1,6 +1,6 @@
 import pytest
 
-#adding comment for git for practice
+#adding comment for git for practicing
 @pytest.fixture(scope="class")
 def setup():
     print("I will be executing first")
