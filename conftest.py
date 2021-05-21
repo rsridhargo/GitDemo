@@ -2,7 +2,7 @@ import pytest
 
 #adding comment for git for practicing
 #first comment
-#second comment
+#second comments
 
 @pytest.fixture(scope="class")
 def setup():
