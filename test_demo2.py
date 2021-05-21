@@ -29,7 +29,7 @@ def test_firstProgram():
 
 
 def test_SecondCreditCard():
-    a = 4
+    a = 10
     b = 6
     assert a+2 == 6, "Addition do not match"
 
