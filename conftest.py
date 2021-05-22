@@ -2,8 +2,12 @@ import pytest
 
 #adding comment for git for practicing
 #first comment
+<<<<<<< HEAD
 #second comment
 #third comments
+=======
+#second comments
+>>>>>>> 9b746aff0fbafbe288f269d013719a26bfb4f8ef
 
 @pytest.fixture(scope="class")
 def setup():
@@ -15,7 +19,7 @@ def setup():
 @pytest.fixture()
 def dataLoad():
     print("user profile data is being created")
-    return ["Rahul","Shetty","rahulshettyacademy.com"]
+    return ["Rahul S","Shetty","rahulshettyacademy.com"]
 
 
 @pytest.fixture(params=[("chrome","Rahul","shetty"), ("Firefox","shetty"), ("IE","SS")])
