@@ -4,6 +4,8 @@ import pytest
 #first comment
 #second comments
 
+# comment for merge
+
 @pytest.fixture(scope="class")
 def setup():
     print("I will be executing first")
