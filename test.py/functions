@@ -1,0 +1,29 @@
+'''
+def user(**kwargs):
+    print(kwargs)
+    for i,j in kwargs.items():
+        print(i,j)
+user(name='sri',age=18,city='bengaluru',mob=984457)
+
+
+def user(*data):
+    print(data)
+
+user('sri',24,'bangalore')
+
+'''
+
+num=int(input('enter the number'))
+
+if num>2:
+    for i in range(2,num):
+        if num%i==0:
+            print('number is not prime')
+            break
+
+    else:
+        print('number is  prime')
+
+else:
+    print('please enter valid number')
+

@@ -1,0 +1,46 @@
+#Exception
+'''
+try:
+    a = int(input('Enter first value'))
+    b = int(input('Enter first value'))
+
+    try:
+        c = a / b
+        print(c)
+
+    except ValueError:
+        print('please enter correct number ')
+
+except ZeroDivisionError:
+    print('please enter number other than zero')
+
+except:
+    print('i am in default except block')
+
+else:
+    print('no exception found')
+
+'''
+
+class InvalidVoter(Exception):
+
+    def __init__(self,msg):
+        self.msg=msg
+
+age=int(input('please enter the age'))
+
+try:
+    if age>18:
+        print('valid voter')
+
+    else:
+        raise InvalidVoter('age is less than 18')
+
+except InvalidVoter:
+    print('invalid voter')
+
+print('i am done')
+
+
+
+
